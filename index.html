@@ -9,17 +9,30 @@
 <body>
     <main class="container">
         <div class="phone-image">
-            <img src="images/instagram-web-lox-image.png" alt="phone_photo">
+            <img src="images/instagram-web-lox-image.png" alt="phone photo">
         </div>
         <div class="login-box">
             <img class="instLogo" src="images/Instagram-Logo-2016-present.png" alt="Logo">
-            <input type="text">
-            <input type="text">
-            <button class="btn_login">Войти</button>
-            <p>ИЛИ</p>
-            <p><a href="#">Войти через Facebook</a></p>
-            <p><a href="#">Забыли пароль?</a></p>
-            <p>У вас нет аккаунта? <a href="#">Зарегестророваться</a></p>
+            <form class="login-form" action="#" method="post">
+                <input type="text" placeholder="Phone number, username or email">
+                <input type="password" placeholder="Password">
+                <button class="btn_login" type="submit">Войти</button>
+            </form>
+
+            <div class="divider">
+                <div class="line"></div>
+                <div class="or">ИЛИ</div>
+                <div class="line"></div>
+            </div>
+            <div class="another_signin">
+                <p><a href="#">Войти через Facebook</a></p>
+            </div>
+            <div class="lost_pass">
+                <p><a href="#">Забыли пароль?</a></p>
+            </div>
+            <div class="signup-box">
+                <p>У вас нет аккаунта? <a href="#">Зарегестророваться</a></p>
+            </div>
         </div>
     </main>
 </body>
